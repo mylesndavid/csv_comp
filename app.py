@@ -44,14 +44,8 @@ st.markdown("""
 ## What this tool does:
 **This tool finds rows from Group B that are NOT present in Group A**
 
-### How it works:
-1. Upload your **reference CSV files** to Group A (the "master list" to compare against)
-2. Upload your **target CSV files** to Group B (the files you want to check)
-3. Select which columns to compare between the groups
-4. The tool will show you **all rows from Group B where the selected column value doesn't exist in Group A**
-
 ### Example:
-- CSV A has people I have already contacted: John, Mary, Bob
+- CSV A has people I dont want to contact: John, Mary, Bob
 - CSV B has all of the People in my lead list. for: John, Mary, Sarah, Mike
 - **Result**: Shows you rows for Sarah and Mike (People in your lead list who have not been contacted)
 """)
