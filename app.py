@@ -37,7 +37,7 @@ def compare_csv_columns(df1, df2, col1_name, col2_name):
     return df2[~df2[col2_name].isin(reference_values)]
 
 # Set up the Streamlit page
-st.title('CSV Row Comparison Tool')
+st.title('CSV Row Comparison Tool by Myles David')
 
 # Clear explanation at the top
 st.markdown("""
